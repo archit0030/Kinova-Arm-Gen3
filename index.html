@@ -1,29 +1,73 @@
-Large Language Models (LLMs) have demonstrated strong
-reasoning abilities in robotics, enabling robots to under-
-stand user intentions and deduce task workflows effectively.
-However, applying LLMs to intricate robotic tasks presents
-challenges. While LLMs can generate detailed steps, these
-steps are often not directly executable without the integration
-of operational knowledge and skill.
-Many current methods for robotic task execution and
-text-to-action mapping rely on GPT models, which have
-significant dependencies. These dependencies include the
-need for internet access to use the latest GPT-4 model and
-paid subscriptions. In contrast, our work focuses on creating
-a customized, smaller language model using pre-trained
-models like BERT. This model is designed to efficiently
-extract key sub-actions from human commands and carry
-out the corresponding actions on robots without relying on
-larger models with heavy external dependencies.
-Our work focuses on recognizing smaller actions within
-larger activities, rather than just identifying complete actions
-or tasks. We aim to understand and execute these smaller
-actions, which can then be combined to create entirely new
-actions. This unique approach enhances the flexibility and
-adaptability of robotic systems, allowing them to perform
-tasks that were not explicitly pre-programmed.
-In addition to recognizing sub-actions, our approach also
-considers object-aware execution, where each sub-action is
-associated with specific objects. This allows us to determine
-not only what action to perform but also which object to
-manipulate and where to place it.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enhanced Robotic Task Automation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        section p {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Enhanced Robotic Task Automation through Detailed Subaction Recognition and Object-Aware Execution</h1>
+        <p>Exploring advancements in robotic automation through smaller language models and object-aware execution</p>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Large Language Models (LLMs) have demonstrated strong reasoning abilities in robotics, enabling robots to understand user intentions and deduce task workflows effectively. However, applying LLMs to intricate robotic tasks presents challenges. While LLMs can generate detailed steps, these steps are often not directly executable without the integration of operational knowledge and skill.</p>
+    </section>
+
+    <section>
+        <h2>Challenges in Current Methods</h2>
+        <p>Many current methods for robotic task execution and text-to-action mapping rely on GPT models, which have significant dependencies. These dependencies include the need for internet access to use the latest GPT-4 model and paid subscriptions. In contrast, our work focuses on creating a customized, smaller language model using pre-trained models like BERT. This model is designed to efficiently extract key sub-actions from human commands and carry out the corresponding actions on robots without relying on larger models with heavy external dependencies.</p>
+    </section>
+
+    <section>
+        <h2>Subaction Recognition and Flexibility</h2>
+        <p>Our work focuses on recognizing smaller actions within larger activities, rather than just identifying complete actions or tasks. We aim to understand and execute these smaller actions, which can then be combined to create entirely new actions. This unique approach enhances the flexibility and adaptability of robotic systems, allowing them to perform tasks that were not explicitly pre-programmed.</p>
+    </section>
+
+    <section>
+        <h2>Object-Aware Execution</h2>
+        <p>In addition to recognizing sub-actions, our approach also considers object-aware execution, where each sub-action is associated with specific objects. This allows us to determine not only what action to perform but also which object to manipulate and where to place it.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Enhanced Robotic Task Automation | Powered by GitHub Pages</p>
+    </footer>
+
+</body>
+</html>

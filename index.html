@@ -36,6 +36,13 @@
             font-size: 0.9em;
             color: #666;
         }
+        .video-container {
+            text-align: center;
+        }
+        .video-container video {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -52,19 +59,23 @@
 Identifying sub-actions, along with their associated objects, not only helps us better understand tasks but also enables the execution of these sub-actions using a robotic manipulator. By constructing new actions from sets of identified sub-actions, our approach expands the range of tasks that can be autonomously performed, representing a significant advancement in the field of robotic task execution. Our paper presents the methods, models, and experimental results demonstrating the effectiveness and versatility of our approach.</p>
     </section>
 
-
-
-        <!-- YouTube Video Section -->
+    <!-- YouTube Video Section -->
     <div class="video-container">
         <h2>Demonstration Video</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kF7Yb7aYDKs?si=ELU-muSmt7oBDBrG&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        <p>Watch this video to see the robotic task automation in action.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kF7Yb7aYDKs?si=ELU-muSmt7oBDBrG&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Watch this video to see the robotic task automation in action.</p>
     </div>
 
-    <video width="600" controls>
-        <source src="/workspaces/SubActionRobot/videos/Pick and Stack - Made with Clipchamp.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
+    <!-- GitHub-hosted Video Section -->
+    <div class="video-container">
+        <h2>GitHub-Hosted Video Demonstration</h2>
+        <video width="600" controls>
+            <source src="https://raw.githubusercontent.com/archit0030/SubActionRobot/main/workspaces/SubActionRobot/videos/Pick%20and%20Stack%20-%20Made%20with%20Clipchamp.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Watch this video for a GitHub-hosted demonstration of the robotic task automation.</p>
+    </div>
+
     <footer>
         <p>&copy; 2024 Enhanced Robotic Task Automation | Powered by GitHub Pages</p>
     </footer>
